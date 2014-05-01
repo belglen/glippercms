@@ -1,0 +1,29 @@
+[TABLE user_activity]
+
+------------------------
+--- DUMP INFORMATION ---
+------------------------
+
+=> FIELDS
+-> => user_id (int)
+-> => activity (text)
+-> => buy (enum)
+-> => tijd (timestamp)
+
+------------------------
+
+=> EXAMPLES
+-> -> => user_id (232)
+-> -> => activity (paard 69)
+-> -> => buy (1)
+-> -> => tijd (2013-03-30 15:43:32)
+
+------------------------
+
+=> ALL ACTIVITY EXAMPLES
+-> -> -> => badge
+-> -> -> => badgepack
+-> -> -> => paard
+-> -> -> => addtag
+-> -> -> => deltag
+-> -> -> => ticket

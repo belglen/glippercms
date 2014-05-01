@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<colors>
+	<body id="1" name="blue">
+		<color>blue</color>
+		<price>0</price>
+	</body>
+	<body id="2" name="groen">
+		<color>groen</color>
+		<price>0</price>
+	</body>
+	<body id="3" name="geel">
+		<color>geel</color>
+		<price>0</price>
+	</body>
+	<body id="4" name="rood">
+		<color>rood</color>
+		<price>1</price>
+	</body>
+	<body id="5" name="paars">
+		<color>paars</color>
+		<price>1</price>
+	</body>
+	<body id="6" name="oranje">
+		<color>oranje</color>
+		<price>1</price>
+	</body>
+</colors>

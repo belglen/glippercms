@@ -1,0 +1,139 @@
+html, body, ul, li { margin: 0px; padding: 0px; width: 100%; height: 100%; font-size: 16px; font-family: Arial, Helvetica, sans-serif; font-family: Arial; font-weight: bold; }
+body { background: url(../images/bg.png); background-position: left top; background-repeat: repeat-x; background-color: rgb(242, 242, 242); }
+
+a { text-decoration:none; color:#FFFFFF; text-shadow: 1px 1px 0px #000000;}
+a:hover { text-decoration:none; color:#FFFFFF; text-shadow: 1px 1px 0px #000000;}
+a:visited { text-decoration:none; color:#FFFFFF; text-shadow: 1px 1px 0px #000000;}
+a:active { text-decoration:none; color:#FFFFFF; text-shadow: 1px 1px 0px #000000;}
+
+.header { position: absolute; z-index:10; width: 100%; height: 66px; background-color: #000000; border-bottom: 1px #FFFFFF solid; }
+.header .home { float: right; height: 50px; width: 53px; padding-left: 14px; }
+.header .menu { float: left; height: 50px; width: 67px; }
+
+.content .basis { width: 100%; padding-bottom: 16px; float: left; overflow: hidden; text-align: center; color: #404040; text-shadow: 1px 1px 0px #FFFFFF; padding-top: 66px; font-size: 18px; }
+
+.g-pad {
+	float: left;
+	width: 2%;
+	height: 50px;
+}
+
+.g-flex {
+	float: left;
+	width: 96%;
+	margin: auto;
+	overflow: hidden;
+	background: url("../images/rand-left.png") top left no-repeat, url("../images/rand-right.png") top right no-repeat, url("../images/mid-center.png") top center repeat;
+	/*, url("../images/mid-center.png") top center repeat*/
+	height: 33px;
+	background-position: 0px 7px top left, 0px 7px top right, 0px 7px top center;
+	background-repeat: no-repeat, no-repeat, repeat;
+}
+.inbox1 {
+	padding: 10px 20px;	
+	overflow: hidden;
+	color: white;
+	margin-top: -2px;
+	text-align: left;
+	font-size: 14px;
+}
+.inbox {
+	padding: 10px 20px;	
+	overflow: hidden;
+	font-size: 14px;
+}
+.g-cont {
+	float: left;
+	width: 96%;
+	border-style: solid;
+	border-width: 1px 1px 4px;
+	border-color: rgb(208, 208, 208);
+	background-color: rgb(255, 255, 255);
+}
+
+.content {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	top: 1px;
+}
+.content2 {position: absolute; z-index: 1; width: 100%; height: 100%; background-color: #404040; }
+
+.invoerveld { width: 98%; outline: medium none; font-size: 18px; padding: 6px; border-width: 1px 1px 2px; border-style: solid; border-color: rgb(224, 224, 224); height: 32px; }
+.submitknop { width: 100%; font-size: 18px; color: rgb(136, 136, 136);
+border-color: #DDDDDD;
+border-style: solid;
+border-width: 1px 1px 2px 1px;
+background: none repeat scroll 0% 0% #F0F0F0;
+cursor: pointer; cursor: pointer; height: 35px; }
+
+/* Sudo Slider */
+#slider ul, #slider li{ margin:0; padding:0; list-style:none; position:relative; display:block; }
+/* Uncomment this if you wan't to only have 1 visible slide before the javascript kicks in. 
+#slider li {display:none;}	
+#slider li:first-child {display:block;}
+*/
+
+#slider { width:100%; overflow: hidden; height: 100%; }
+
+#slider li { width:100%; }
+
+.links { float: left; width: 100%; overflow: hidden; padding-top: 50px; }
+.links li { display:block; width: 100%; line-height: 50px; border-bottom: 1px #606060 solid; }
+.links2 { float: left; width: 100%; overflow: hidden; }
+.links2 li { display:block; width: 100%; line-height: 50px; border-bottom: 1px #606060 solid; }
+.links li .home { margin-left: 19px; padding-left: 31px; background: url(../images/icons/house.png) no-repeat left center scroll; }
+.links li .vrienden { margin-left: 19px; padding-left: 31px; background: url(../images/icons/group.png) no-repeat left center scroll; }
+.links li .nieuws { margin-left: 19px; padding-left: 31px; background: url(../images/icons/layout.png) no-repeat left center scroll; }
+.links li .tops { margin-left: 19px; padding-left: 31px; background: url(../images/icons/medal_gold_3.png) no-repeat left center scroll; }
+.links li .team { margin-left: 19px; padding-left: 31px; background: url(../images/icons/user_gray.png) no-repeat left center scroll; }
+.links li .uitloggen { margin-left: 19px; padding-left: 31px; background: url(../images/icons/lock_break.png) no-repeat left center scroll; }
+
+.links li:hover { background-color: #666; }
+.links li:active { background-color: #333; }
+
+#wrapper, #wrapper2 {
+	position:absolute; z-index:1;
+	top:0px; bottom:0px; left:0;
+	width:100%;
+	overflow:auto;
+}
+
+#ajax_loader {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+	height: 45px;
+	text-align: center;
+	z-index: 100000;
+	display: none;
+}
+
+.height {
+	height: 1000px;
+	clear: both;
+}
+.paars {
+	color: rgb(120,30,199);
+	text-shadow: 1px 1px 10px rgb(120,30,199);
+}
+.blue {
+	color: rgb(0, 94, 255);
+	text-shadow: 1px 1px 10px rgb(0, 94, 255);
+}
+.yellow  {
+	color: rgb(211,182,0);
+	text-shadow: 1px 1px 10px rgb(211,182,0);
+}
+.green {
+	color: rgb(0,128,0);
+	text-shadow: 1px 1px 10px rgb(0,128,0);
+} 
+.rood {
+	color: rgb(225,25,0);
+	text-shadow: 1px 1px 10px rgb(225,0,0);
+}
+.oranje {
+	color: rgb(255,119,0);
+	text-shadow: 1px 1px 10px rgb(255,119,0);
+}

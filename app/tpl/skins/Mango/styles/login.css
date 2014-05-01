@@ -1,0 +1,92 @@
+body, body#index {
+	font-family: verdana;
+	font-size: 11px;
+	background-color: #e3e3db;
+	background-image: url(../images/bgbgbg.png);
+	background-position: left top;
+	background-attachment: fixed;
+	background-repeat: repeat;
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 0px;
+	margin: 0;
+	padding: 0;
+}
+#loginbox {
+	padding: 20px;
+	width: 700px;
+	margin: auto;
+	background: #FFF;
+	border: #e1e1e1 1px solid;
+}
+#login_image {
+	padding: 20px;
+	background: url(../images/login_image.png);
+	width: 660px;
+	height: 360px;
+}
+#main_login {
+	width: 230px;
+	float: right;
+	background: #FFF;
+	padding: 10px;
+	border: #e1e1e1 1px solid;
+}
+#powered_by {
+	font-size: 13px;
+}
+#container hr {
+	border: none;
+	border-top: #d0d0d0 1px solid;
+}
+input, textarea, select {
+	outline: none;
+	border: 1px #e0e0e0 solid;
+	border-bottom-width: 2px;
+	float: left;
+	padding: 5px;
+	font-size: 13px;
+	font-weight: bold;
+	width: 200px;
+}
+input:focus {
+	border-color: #ccc;
+	background-color: #fafafa;
+}
+input[type=submit], [type=button], input.button {
+	color: #888;
+	border-color: #ddd;
+	background: #f0f0f0;
+	cursor: pointer;
+	padding: 3px;
+	height: 35px;
+	width: 120px;
+}
+input[type=submit]:hover, [type=button]:hover, input.button:hover {
+	background-color: #e6e6e6;
+	border-color: #d6d6d6;
+}
+td {
+}
+hr {
+	border: none;
+	border-top: #d0d0d0 1px solid;
+}
+#logo {
+	float: left;
+}
+#stats {
+	margin-top: 14px;
+	float: right;
+}
+#clear {
+	clear: both;
+}
+#message {
+	padding: 5px;
+	color: #bc532a;
+	height: 17px;
+	background: #fffde5;
+	border: #f2e2c2 1px solid;
+	margin-bottom: 5px;
+}

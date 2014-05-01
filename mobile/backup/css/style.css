@@ -1,0 +1,132 @@
+html, body, ul, li { margin: 0px; padding: 0px; width: 100%; height: 100%; font-size: 16px; font-family: Arial, Helvetica, sans-serif; font-family: Arial; font-weight: bold; }
+body { background: url(../images/bg.png) repeat left top scroll; }
+
+a { text-decoration:none; color:#FFFFFF; text-shadow: 1px 1px 0px #000000;}
+a:hover { text-decoration:none; color:#FFFFFF; text-shadow: 1px 1px 0px #000000;}
+a:visited { text-decoration:none; color:#FFFFFF; text-shadow: 1px 1px 0px #000000;}
+a:active { text-decoration:none; color:#FFFFFF; text-shadow: 1px 1px 0px #000000;}
+
+.header { position: absolute; z-index:10; width: 100%; height: 50px; background-color: #000000; border-bottom: 1px #FFFFFF solid; }
+.header .home { float: right; height: 50px; width: 53px; padding-left: 14px; }
+.header .menu { float: left; height: 50px; width: 67px; }
+
+.content .basis { width: 100%; padding-bottom: 16px; float: left; overflow: hidden; text-align: center; color: #404040; text-shadow: 1px 1px 0px #FFFFFF; padding-top: 66px; font-size: 18px; }
+
+.g-pad {
+	float: left;
+	width: 2%;
+	height: 50px;
+}
+
+.g-flex {
+	float: left;
+	width: 96%;
+	margin: auto;
+	overflow: hidden;
+	background-color: #333333;
+	color: #EFEFEF;
+	font-weight: bold;
+	font-size: 16px;
+	text-shadow: 1px 1px 0px #000000;
+	border-left: 1px #000000 solid;
+	border-right: 1px #000000 solid;
+	border-bottom: 1px #000000 solid;
+}
+.inbox {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	overflow: hidden;
+}
+.g-cont {
+	float: left;
+	width: 96%;
+	margin: auto;
+	margin-bottom: 18px;
+	overflow: hidden;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-size: 14px;
+	text-shadow: 1px 1px 0px #FFFFFF;
+	border-left: 1px #000000 solid;
+	border-right: 1px #000000 solid;
+	border-bottom: 1px #000000 solid;
+}
+
+.content { position: absolute; z-index: 1; width: 100%; }
+.content2 {position: absolute; z-index: 1; width: 100%; height: 100%; background-color: #404040; }
+
+.invoerveld { width: 98%; font-size: 18px; padding: 6px; border: 1px #000000 solid; height: 32px; -moz-box-shadow: 0px 0px 5px #787878; -webkit-box-shadow: 0px 0px 5px #787878; box-shadow: 0px 0px 5px #787878; }
+.submitknop { width: 100%; background: url(../images/submit.png) repeat-x left top scroll; font-size: 18px; border: 1px #000000 solid; height: 48px; -moz-box-shadow: 0px 0px 5px #787878; -webkit-box-shadow: 0px 0px 5px #787878; box-shadow: 0px 0px 5px #787878; }
+
+/* Sudo Slider */
+#slider ul, #slider li{ margin:0; padding:0; list-style:none; position:relative; display:block; }
+/* Uncomment this if you wan't to only have 1 visible slide before the javascript kicks in. 
+#slider li {display:none;}	
+#slider li:first-child {display:block;}
+*/
+
+#slider { width:100%; overflow: hidden; height: 100%; }
+
+#slider li { width:100%; }
+
+.links { float: left; width: 100%; overflow: hidden; padding-top: 50px; }
+.links li { display:block; width: 100%; line-height: 50px; border-bottom: 1px #606060 solid; }
+.links2 { float: left; width: 100%; overflow: hidden; }
+.links2 li { display:block; width: 100%; line-height: 50px; border-bottom: 1px #606060 solid; }
+.links li .home { margin-left: 19px; padding-left: 31px; background: url(../images/icons/house.png) no-repeat left center scroll; }
+.links li .vrienden { margin-left: 19px; padding-left: 31px; background: url(../images/icons/group.png) no-repeat left center scroll; }
+.links li .nieuws { margin-left: 19px; padding-left: 31px; background: url(../images/icons/layout.png) no-repeat left center scroll; }
+.links li .tops { margin-left: 19px; padding-left: 31px; background: url(../images/icons/medal_gold_3.png) no-repeat left center scroll; }
+.links li .team { margin-left: 19px; padding-left: 31px; background: url(../images/icons/user_gray.png) no-repeat left center scroll; }
+.links li .uitloggen { margin-left: 19px; padding-left: 31px; background: url(../images/icons/lock_break.png) no-repeat left center scroll; }
+
+.links li:hover { background-color: #666; }
+.links li:active { background-color: #333; }
+
+#wrapper, #wrapper2 {
+	position:absolute; z-index:1;
+	top:0px; bottom:0px; left:0;
+	width:100%;
+	overflow:auto;
+}
+
+#ajax_loader {
+	position: absolute;
+	top: 5px;
+	width: 100%;
+	height: 45px;
+	text-align: center;
+	z-index: 100000;
+	display: none;
+}
+
+.height {
+	height: 1000px;
+	clear: both;
+}
+.paars {
+	color: rgb(120,30,199);
+	text-shadow: 1px 1px 10px rgb(120,30,199);
+}
+.blue {
+	color: rgb(0, 94, 255);
+	text-shadow: 1px 1px 10px rgb(0, 94, 255);
+}
+.yellow  {
+	color: rgb(211,182,0);
+	text-shadow: 1px 1px 10px rgb(211,182,0);
+}
+.green {
+	color: rgb(0,128,0);
+	text-shadow: 1px 1px 10px rgb(0,128,0);
+} 
+.rood {
+	color: rgb(225,25,0);
+	text-shadow: 1px 1px 10px rgb(225,0,0);
+}
+.oranje {
+	color: rgb(255,119,0);
+	text-shadow: 1px 1px 10px rgb(255,119,0);
+}

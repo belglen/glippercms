@@ -1,0 +1,225 @@
+/*
+#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#/#
+#/#																/#/
+#/#			HibbzCMS by xH4BB0 based on BlueCMS 				/#/
+#/#				   COPYRIGHT 2011 © 2012						/#/
+#/#					 EDITION PRIVÉE 							/#/
+#/#																/#/
+#/##/##/##/##/##/##/##/##/##/##/##/##/##/##/##/##/##/##/##/##/##/#/
+*/
+/* Defaults */
+body {
+background:#e3e3db url(/web-gallery/indexbg.png);
+font-family:verdana;
+cursor:url(/web-gallery/v2/images/curseur.png), auto;
+}
+a {
+text-decoration:none;
+}
+a:hover {
+text-decoration:none;
+}
+a:active {
+text-decoration:none;
+}
+h1 a {
+height: 60px!important;
+width: 143px!important;
+background-image: url('/web-gallery/v2/images/habbo.png') !important;
+background-repeat:no-repeat;
+float:left;
+margin-left:25px;
+margin-top:50px;
+opacity:0.5;
+}
+h1 a:hover {
+height: 60px!important;
+width: 143px!important;
+background-image: url('/web-gallery/v2/images/habbo.png') !important;
+background-repeat:no-repeat;
+float:left;
+margin-left:25px;
+margin-top:50px;
+opacity:100;
+}
+p {
+cursor: text;
+}
+::-moz-selection{ background: #FEAA01; color:#fff;}
+::selection { background:#FEAA01; color:#fff; }
+/* Fin Defaults */
+/* ------------ */
+/* DIVS */
+#conteneur {
+width:700px;
+border-style:solid;
+border-width:1px;
+border-color:#bbb;
+background:url(/web-gallery/bgconteneur.png) right no-repeat;
+margin:0 auto;
+margin-top:50px;
+text-align:center;
+color:#fff;
+font-family:tahoma , verdana;
+border-radius:7px;
+box-shadow:1px 2px 0px #bbb;
+height:450px;
+margin-bottom:30px;
+}
+#connect {
+border-color:#bbb;
+width:300px;
+height:190px;
+background:#E8E9E9;
+opacity:0.8;
+border-style:solid;
+border-width:1px;
+border-radius:7px;
+margin-top:150px;
+margin-left:300px;
+color:#000;
+box-shadow:1px 3px 0px #bbb;
+text-shadow:2px 3px #bbb;
+}
+#error {
+background:#e2001a;
+border-radius:7px;
+color:#fff;
+width:500px;
+margin:0 auto;
+text-align:center;
+font-size: 15px;
+}
+#copyright {
+background:#fff;
+border-style:solid;
+border-color:#bbb;
+border-width:1px;
+border-radius:9px;
+box-shadow:1px 2px 0px #bbb;
+width:780px;
+font-size:13px;
+margin:0 auto;
+margin-top:10px;
+text-align:center;
+text-shadow:1px 0px 0px #bbb;
+}
+#join_button {
+background:url(/web-gallery/regsiter.png);
+width:289px;
+height:40px;
+text-align:center;
+margin-left:310px;
+margin-top:10px;
+clear:both;
+display:block;
+padding:7px 0 0px;
+overflow: hidden;
+position:absolute;
+background-repeat:no-repeat;
+opacity:0.9;
+}
+#join_button:hover {
+background:url(/web-gallery/regsiter1.png);
+width:289px;
+height:40px;
+text-align:center;
+margin-left:310px;
+margin-top:10px;
+clear:both;
+display:block;
+padding:7px 0 0px;
+overflow: hidden;
+position:absolute;
+background-repeat:no-repeat;
+opacity:100;
+}
+/* FIN DIVS */
+/* -------- */
+/* CLASSES */
+.register {
+color:#000;
+text-decoration:none;
+}
+.register:hover {
+color:#000;
+text-decoration:underline;
+}
+.join_now {
+color:#fff;
+font-family:verdana;
+font-weight:900;
+}
+.footer_link {
+color:#313131;
+margin:0 auto;
+text-align:center;
+text-decoration:none;
+font-size:17px;
+}
+.footer_link:hover {
+color:#000;
+margin:0 auto;
+text-align:center;
+text-decoration:underline;
+font-size:17px;
+}
+.enter {
+opacity:100;
+border-style:solid;
+border-color:#000;
+border-width:1px;
+border-radius:2px;
+padding:0px 20 0px;
+height:25px;
+background:url(/web-gallery/v2/images/online_small2.png) no-repeat #E1E2E2;
+}
+.enter:active {
+opacity:100;
+border-style:solid;
+border-color:#000;
+border-width:1px;
+border-radius:2px;
+padding:0px 20 0px;
+height:25px;
+box-shadow:0px 0px 10px #bbb;
+background:url(/web-gallery/v2/images/online_small2.png) no-repeat #fff;
+}
+.enter:hover {
+background:#fff;
+opacity:100;
+border-style:solid;
+border-color:#000;
+border-width:1px;
+border-radius:2px;
+padding:0px 20 0px;
+height:25px;
+box-shadow:0px 0px 10px #bbb;
+background:url(/web-gallery/v2/images/online_small2.png) no-repeat #fff;
+}
+.connect {
+background:#fff;
+opacity:100;
+border-style:solid;
+border-color:#000;
+border-width:1px;
+border-radius:5px;
+padding:2px 15 5px;
+height:25px;
+cursor:pointer;
+background:#E1E2E2;
+}
+.connect:hover,.connect:active {
+background:#fff;
+opacity:100;
+border-style:solid;
+border-color:#000;
+border-width:1px;
+border-radius:5px;
+padding:2px 15 5px;
+height:25px;
+background:#fff;
+box-shadow:0px 0px 10px #bbb;
+}
+/* FIN CLASSES */
+/* ----------- */

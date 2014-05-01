@@ -1,0 +1,171 @@
+/* ~~*************************************************************~~ */
+/*           Slicing by: Aijt.nl                                     */
+/*           Date      : 28-02-2011 - 20:30                          */
+/*           Slicer    : Wim Penninkhof (wimpenninkhof[AT]aijt.nl)      */
+/*           Language  : Dutch                                       */
+/* ~~*************************************************************~~ */
+
+body {
+	background-color: #e3e3db;
+	background-image: url(http://rabbo-hotel.nl/web-gallery/v2/images/bg.png);
+	
+	background-attachment:fixed;
+	background-position:bottom; 
+	background-color: #FFEE00;
+	font-size: 11px;
+	font-family: Verdana;
+	margin:0px;
+}
+
+#menu {
+	background: url('../../../../web-gallery/v2/images/new-loginscreen-typo/menu.PNG');
+	width: 714px;
+	height: 33px;
+	color: #FFFFFF;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 9px;
+	margin: 0 auto;
+}
+
+
+
+#menu a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#menu a:hover{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-style: italic;
+}
+
+#wrong-login {
+	background: url('../../../../web-gallery/v2/images/new-loginscreen-typo/wrong-login.PNG');
+	width: 714px;
+	height: 33px;
+	color: #FFFFFF;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 9px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+#login {
+	width: 716px;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+#login #left {
+	width: 272px;
+	height: auto;
+	float: left;
+}
+
+#login #left .login-place {
+	background: url('../../../../web-gallery/v2/images/new-loginscreen-typo/login-screen.PNG');
+	width: 272px;
+	height: 206px;
+	color: #FFFFFF;
+	font-size: 12px;
+	overflow: hidden;
+}
+
+#login #left .login-place input {
+	width: 245px;
+	height: 30px;
+	background-color: #FFFFFF;
+	font-family: verdana;
+	font-size: 14px;
+	color: #C3C3C3;
+	border: 0px solid #FFFFFF;
+	border-bottom: 2px solid #6DBDDC;
+	padding: 0 2px 0 2px;
+	margin: 8px 0 0 8px;
+}
+
+#login #left .motto {
+	background: url('../../../../web-gallery/v2/images/new-loginscreen-typo/motto-hotel.PNG');
+	width: 272px;
+	height: 212px;
+	background-repeat: no-repeat;
+}
+
+#login #right {
+	width: 444px;
+	height: auto;
+	float: left;
+}
+
+#login #right .register {
+	background: url('../../../../web-gallery/v2/images/new-loginscreen-typo/register-button.PNG');
+	width: 425px;
+	height: 45px;
+	margin-left: -2px;
+	color: #FFFFFF;
+	font-size: 22px;
+	padding: 16px 7px 0 12px;
+}
+
+#login #right .register:hover {
+	background: url('../../../../web-gallery/v2/images/new-loginscreen-typo/register-button-hover.PNG');
+}
+
+#login #right .hotel-overzicht {
+	background: url('../../../../web-gallery/v2/images/new-loginscreen-typo/hotel-overzicht.PNG');
+	width: 444px;
+	height: 97px;
+	margin-left: -2px;
+        position: relative;
+        padding-top: 0px;
+}
+
+#login #right .content {
+	background: url('../../../../web-gallery/v2/images/new-loginscreen-typo/content.PNG');
+	width: 436px;
+	height: 256px;
+	margin-left: -2px;
+	color: #3D3D3D;
+	padding: 2px 4px 2px 4px;
+	overflow: hidden;
+}
+
+#users_online {
+	position: absolute;
+	top: 73px;
+	left: 312px;	
+	text-align: center;
+	position: absolute;
+}
+
+#login #footer {
+	background: url('../../../../web-gallery/v2/images/new-loginscreen-typo/footer.PNG');
+	width: 714px;
+	height: 29px;
+	color: #FFFFFF;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 9px;
+	float: left;
+}
+
+#login #left .login-place input[type="submit"] { 
+ background: url('../../../../web-gallery/v2/images/new-loginscreen-typo/submit_button.png');
+ width: 100px;
+ height: 35px;
+ border: 0px solid #FFFFFF;
+ margin: 8px 0 0 159px;
+}
+
+#login #left .login-place input[type="submit"]:hover { 
+ background: url('../../../../web-gallery/v2/images/new-loginscreen-typo/submit_button_hover.png');
+ width: 100px;
+ height: 35px;
+ border: 0px solid #FFFFFF;
+ margin: 8px 0 0 159px;
+}

@@ -1,0 +1,22 @@
+body {
+	Background-color:lightblue;
+	Font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:11px;
+	margin-top:0px;
+}
+.box {
+	width:700px;
+	height:auto;
+	Margin:0px auto 0px auto;
+	Background-color:#fff;
+	Border-left:1px solid #bbb;
+	Border-right:1px solid #bbb;
+	Margin-top:0px;
+	Border-bottom:4px solid #bbb;
+	border-radius: 8px;
+}
+.logo {
+	Background-image:url('../images/habbo.png');
+	Width:168px;
+	height:65px;
+}
