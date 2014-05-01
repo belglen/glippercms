@@ -1,0 +1,190 @@
+/* Start CSS */
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+body {
+	background-image: none;
+	background-color: #f2f2f2;
+	font-family: Verdana,Arial,Helvetica,sans-serif font-size: 11px;
+	width: 100%;
+	height: 100%;
+}
+#menu2 {
+	background-image: url('images/menu-illu3.png');
+	repeat: repeat-x;
+	width: 100%;
+	height: 40px;
+	float: left;
+}
+#content2 {
+	width: 951px;
+	margin: 0 auto;
+}
+#content3 {
+	width: 951px;
+	margin: 0 auto;
+}
+.right {
+	float: right;
+	color: #efefee;
+	margin-top: 11px;
+	font-size: 14px;
+}
+.left {
+	float: left;
+	color: #efefee;
+	margin-top: 11px;
+	font-size: 14px;
+}
+#welcome2 {
+	margin-top: 100px;
+	margin-left: -182px;
+	background-image: url('images2/welcome_4.png');
+	height: 322px;
+	width: 612px;
+	float: left;
+}
+#welcome2 .welcomehover2 {
+	background-image: url('images2/welcomehover.png');
+	margin-top: 146px;
+	height: 18px;
+	width: 576px;
+	padding: 18px;
+	float: left;
+	position: relative;
+	color: #FFFFFF;
+	font-size: 17px;
+}
+#welcome2 .button2 {
+	margin-top: 15px;
+	margin-left: 350px;
+	background-image: url('images2/button7.png');
+	height: 89px;
+	width: 250px;
+	float: left;
+	position: relative;
+	color: white;
+	font-size: 21px;
+	text-align: center;
+	padding-top: 18px;
+}
+#welcome2 .button2 .textsmall2 {
+	color: #FFFFFF;
+	font-size: 12px;
+	margin-top: 26px;
+}
+#rechts2 {
+	float: left;
+	width: 324px;
+	margin-top: 100px;
+	margin-left: 15px;
+}
+.content-login-top-blue2 {
+	background-image: url('images2/content-login-top-blue.png');
+	width: 291px;
+	height: 16px;
+	float: left;
+	font-size: 16px;
+	color: #FFFFFF;
+	padding: 16px;
+}
+.content-login-top-green2 {
+	background-image: url('images2/content-login-top-green.png');
+	width: 291px;
+	height: 16px;
+	float: left;
+	font-size: 16px;
+	color: #FFFFFF;
+	padding: 16px;
+}
+.content-login-mid2 {
+	background-image: url('images2/content-login-mid.png');
+	width: 305px;
+	repeat: repeat-y;
+	float: left;
+	padding-left: 12px;
+	padding-right: 6px;
+	padding-top: 6px;
+}
+.content-login-bot2 {
+	background-image: url('images2/content-login-bot.png');
+	width: 323px;
+	height: 10px;
+	float: left;
+	margin-bottom: 10px;
+}
+#footer2 {
+	background-image: url('images/footer2.png');
+	margin-top: -4px;
+	width: 951px;
+	height: 33px;
+	float: left;
+}
+.text2 {
+	float: left;
+	font-size: 10.5px;
+	color: #989898;
+}
+input[type=text], input[type=input], input[type=password] {
+	background: #F2F2F2;
+	height: 14px;
+	color: #333;
+	font-size: 11px;
+	padding: 5px 6px 8px 6px;
+	border: 1px #EAEAEA solid;
+	border-bottom: 2px #EAEAEA solid;
+	outline: none;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+input[type=text]:hover, input[type=input]:hover, input[type=password]:hover {
+	background: #f9f9f9;
+	height: 14px;
+	color: #333;
+	font-size: 11px;
+	padding: 5px 6px 8px 6px;
+	border: 1px #E1E1E1 solid;
+	border-bottom: 2px #E1E1E1 solid;
+	outline: none;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+input[type=submit], input[type=button] {
+	background: #F7F7F7;
+	height: 32px;
+	color: #333;
+	font-size: 12px;
+	padding: 0px 5px 0px 5px;
+	border: 1px #EAEAEA solid;
+	border-bottom: 2px #EAEAEA solid;
+	outline: none;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+input[type=submit]:hover, input[type=button]:hover {
+	background: #f9f9f9;
+	height: 32px;
+	color: #333;
+	font-size: 12px;
+	padding: 0px 5px 0px 5px;
+	border: 1px #E1E1E1 solid;
+	border-bottom: 2px #E1E1E1 solid;
+	outline: none;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+.logo2 {
+	background-image: url('images/large.gif');
+	float: left;
+	width: 182px;
+	height: 46px;
+	position: relative;
+	margin-top: 30px;
+  background-repeat: no-repeat;
+  }

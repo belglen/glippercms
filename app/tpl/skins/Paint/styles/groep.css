@@ -1,0 +1,188 @@
+.groep_begin, .groep_opties_background {
+	position:relative; 
+	width: 910px; 
+	background: none repeat scroll 0% 0% transpant; 
+	padding: 5px 0px;	
+}
+.item_presenter {
+	position: relative; 
+	width: 900px;
+	float:left;
+	text-align:center;
+	position:relative;
+	border: 1px solid rgb(173,173,173);
+	box-shadow: 0px 2px rgba(0,0,0,0.2);
+	margin-bottom:6px;
+	margin-top: -4px;
+	margin-left: -1px;
+	border-radius:0px 0px 5px 5px; 
+	color: rgb(0,0,0);
+	padding: 0px; 
+	overflow: hidden; 
+	height: 1360px; 
+	clear: both;
+}
+.glipperflexbar_groep {
+	background-image: url("../images/glipperflexbar_groep.png");
+	width: 890px;
+	margin: -1px;
+	height: 23px;
+	padding-left: 12px;
+	padding-top: 10px;
+}
+a.new-button.dark-button strong {
+	background-position:-3px -50px;
+	color:#fff !important
+}
+a.new-button.dark-button i {
+	background-position:0 -50px
+}
+a.new-button.dark-button:hover strong {
+	background-position:-3px -75px
+}
+a.new-button.edit-icon span {
+	float:left;
+	display:inline;
+	height:16px;
+	width:16px;
+	background: url('../images/button_icons2.png') no-repeat 0 -193px;	
+	margin-right:5px
+}
+a.new-button.extra {
+	float: left; 
+	margin-top: -5px;
+}
+#bubble_bewerk {
+	display: none;
+	top: 139px;
+	left: 498px;
+	position: absolute;
+	text-align: left;
+	padding: 7px;
+	color: rgb(102, 102, 102);
+	z-index: 1000;
+}
+div.bottom-bubble-groep {
+	background: url("../images/groep/editbubble-tl.png") no-repeat scroll 0px 100%;
+	font-size: 1px;
+	margin-right: 5px;
+	text-align: right;
+}
+div.bottom-bubble-groep div {
+	background: url("../images/groep/editbubble-tr.png") no-repeat scroll 100% 100%;
+	margin-right: -5px;
+	padding-top: 15px;
+}
+div.bottom-bubble-c {
+	background-color: white;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	padding: 4px 7px;
+}
+#bubble_bewerk h3 {
+    text-align: center;
+    font-size: 11px;
+    margin-top: 0px;
+    text-transform: uppercase;
+}
+#bubble_bewerk ul {
+	list-style: none outside none;
+}
+#bubble_bewerk ul li {
+	padding: 5 px 0px;	
+}
+#bubble_bewerk li {
+	list-style: none outside none;
+}
+#bubble_bewerk ul li a {
+	color: rgb(102, 102, 102);
+	text-decoration: none;
+	padding: 0px 0px 5px 20px;
+	background-repeat: no-repeat;
+	background-image: url("../images/groep/group_tool_icons.png");
+}
+#groep-settings {
+	background-position: 0px -28px;	
+}
+#groep-badge {
+	background-position: 0px -56px;	
+}
+#groep-leden {
+	background-position: 0px -83px;	
+}
+div.bottom-bubble-b {
+	background: url("../images/groep/editbubble-bl.png") no-repeat scroll 0px 0px;
+	font-size: 1px;
+	margin-right: 5px;
+}
+div.bottom-bubble-b div {
+	background: url("../images/groep/editbubble-br.png") no-repeat scroll 100% 0px;
+	padding-top: 5px;
+}
+div.first-box {
+	float: left;
+	height: 274px;
+	width: 224px;
+}
+.first-box label {
+	font-weight: bold;
+}
+@font-face {
+	font-family: myFirstFont; 
+	src: url('Volte.ttf')
+}
+.first-box input {
+	border-radius: 4px 4px 4px 4px;
+	width: 70%;
+	height: 11px;
+	font-family:myFirstFont,Verdana,Arial;
+	font-size: 9px;
+}
+.first-box textarea {
+	border-radius: 4px 4px 4px 4px;
+	font-family:myFirstFont,Verdana,Arial;
+	font-size: 9px;
+	width: 70%;
+	height: 150px;	
+}
+#group_desc_checkie {
+	font-weight: normal; 
+	text-align: center; 
+	position: relative;
+}
+div.desc {
+	float: left;
+	padding-left: 2px;
+	width: 198px;
+}
+.group-type, .normaal, .group-type-exl, .group-type-priv {
+	background: url('../images/info_icons.png') no-repeat scroll 100% -896px;
+	float: left;
+	height: 16px;
+	padding-right: 21px;
+	text-align: left;
+}
+.desc p {
+	clear: left;
+	color: rgb(102,102,102);
+	font-size: 10px;
+	margin: 0px 20px;
+	margin-bottom: 1em;
+	text-align: left;
+}
+.group-type-exl {
+	background-position: 100% -720px;
+}
+#settings li {
+	display: block;	
+}
+.group-type-priv {
+	background-position: 100% -672px;	
+}
+a.new-button.red-button strong {
+    background-position: -3px -100px;
+    color: rgb(255, 255, 255) !important;
+}
+a.new-button.red-button i {
+    background-position: 0px -100px;
+}

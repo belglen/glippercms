@@ -1,0 +1,1 @@
+<?php	include'app/tpl/skins/Paint/system/mobilecheck.php';?>

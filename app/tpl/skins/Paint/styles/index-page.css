@@ -1,0 +1,297 @@
+html {
+	margin: auto;
+	height: 100%;
+}
+body {
+	margin: auto;
+	height: 100%;
+	text-align: justify;
+	background: transparent url('../images/login/bg.png') repeat scroll left top;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-size: 14px;
+}
+h1 {
+	font-size: 24px;
+	text-shadow: 1px 1px 0px #FFFFFF;
+	text-align: center;
+	margin-bottom: 0px;
+}
+h2 {
+	font-size: 16px;
+	text-shadow: 1px 1px 0px #FFFFFF;
+	font-weight: normal;
+	text-align: center;
+	margin-top: 4px;
+}
+h3 {
+	width: 100%;
+	text-align: center;
+	text-shadow: 1px 1px 0px #FFFFFF;
+	font-size: 20px;
+	margin-bottom: 2px;
+	margin-top: 6px;
+}
+#topbalky {
+	width: 100%;
+	height: 48px;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	background: transparent url('../images/login/header.png') repeat-x scroll left top;
+	position: fixed;
+	text-align: center;
+}
+:focus {
+	outline: 0;
+}
+a:active {
+	outline: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+/*
+	Page style
+*/
+#containert {
+	width: 960px;
+	padding: 10px;
+	margin: 0 auto;
+	z-index: 0;
+}
+#example {
+	width: 960px;
+	height: 245px;
+	position: relative;
+}
+#frame {
+	position: absolute;
+	z-index: 0;
+	width: 960px;
+	height: 245px;
+}
+/*
+	Slideshow
+*/
+#slides {
+	position: absolute;
+	top: 12px;
+	left: 50px;
+	z-index: 100;
+}
+/*
+	Slides containert
+	Important:
+	Set the width of your slides containert
+	Set to display none, prevents content flash
+*/
+.slides_container {
+	width: 860px;
+	overflow: hidden;
+	position: relative;
+	display: none;
+}
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+.slides_container a {
+	width: 860px;
+	height: 186px;
+	display: block;
+}
+.slides_container a img {
+	display: block;
+}
+/*
+	Next/prev buttons
+*/
+#slides .next, #slides .prev {
+	position: absolute;
+	top: 72px;
+	left: -24px;
+	width: 24px;
+	height: 43px;
+	display: block;
+	z-index: 101;
+}
+#slides .next {
+	left: 860px;
+}
+/*
+	Pagination
+*/
+.pagination {
+	margin: 26px auto 0;
+	width: 100px;
+}
+.pagination li {
+	float: left;
+	margin: 0 1px;
+	list-style: none;
+}
+.pagination li a {
+	display: block;
+	width: 12px;
+	height: 0;
+	padding-top: 12px;
+	background-image: url(../images/login/pagination.png);
+	background-position: 0 0;
+	float: left;
+	overflow: hidden;
+}
+.pagination li.current a {
+	background-position: 0 -12px;
+}
+/*
+	footert
+*/
+#footert {
+	text-align: center;
+	width: 960px;
+	margin-top: 180px;
+	padding: 4.5px 0 18px;
+}
+#footert p {
+	margin: 4.5px 0;
+	font-size: 1.0em;
+}
+/*
+	Anchors
+*/
+a:link, a:visited {
+	color: #599100;
+	text-decoration: none;
+}
+a:hover, a:active {
+	color: #599100;
+	text-decoration: underline;
+}
+#noticias {
+    float: right;
+}
+.furnis {
+    background: url("../images/furnis.png") no-repeat scroll center center transparent;
+}
+.titulo {
+	font-size: 12px;
+	color: #fff;
+	text-shadow: 0 0 5px #000;
+	margin: -5px 0 0 -5px;
+}
+.texto {
+	background: rgba(0, 0, 0, 0.45);
+	position: absolute;
+	box-shadow: 1px 0 #fff inset, -1px -1px #fff inset;
+	border-radius: 0 0 2px 2px;
+	font-size: 12px;
+	color: #fff !important;
+	text-shadow: 0 1px #000;
+	padding: 10px;
+	left: 0;
+	bottom: 0;
+	
+}
+.evento {
+	padding: 15px;
+	height: 150px;
+	width: 225px;
+	float: left;
+	margin-left: 30px;
+	border-radius: 2px;
+	border: solid 1px #000;
+	box-shadow: 1px 1px #fff inset, -1px -1px #fff inset;
+	position: relative;	
+}
+.concursos {
+	background: url('../images/concursos.png') no-repeat center;
+}
+
+.actual {
+	background: url('../images/actua.png') no-repeat center;
+}
+#descrip {
+    overflow: auto;
+    width: 104%;
+}
+#contain {
+	padding-top: 48px;
+	width: 100%;
+	overflow: hidden;
+	margin: auto;
+	text-align: center;
+}
+#mainy {
+	margin: auto;
+	width: 960px;
+	overflow: hidden;
+	text-align: justify;
+}
+#leaugeau {
+	width: 213px;
+	height: 83px;
+	background: transparent url('../images/login/logo.png') no-repeat scroll left top;
+}
+#leaugeau1 {
+	width: 209px;
+	height: 83px;
+	background: url('../images/login/logo.png') no-repeat scroll left top;
+}
+#eaunline {
+	overflow: hidden;
+	padding-right: 80px;
+}
+#contentbg {
+	width: 960px;
+	height: 390px;
+	background: transparent url('../images/login/contentbg.png') no-repeat scroll left top;
+}
+#nieuws {
+	margin-top: 35px;
+	margin-left: 52px;
+	height: 288px;
+	width: 300px;
+}
+#inloggen {
+	margin-right: 52px;
+	margin-top: 36px;
+	width: 441px;
+	height: 288px;
+}
+#message {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.hr {
+	width: 441px;
+	height: 17px;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	background: transparent url('../images/login/smallshade.png') no-repeat scroll left top;
+}
+input {
+	width: 194px;
+	height: 26px;
+	padding: 8px;
+	border: 1px #939393 solid;
+	font-size: 18px;
+}
+input:focus {
+	border: 1px #939393 solid;
+	box-shadow: rgba(0,0,0, 0.8) 0px 0px 4px;  
+    -moz-box-shadow: rgba(0,0,0, 0.8) 0px 0px 4px;  
+    -webkit-box-shadow: rgba(0,0,0, 0.8) 0px 0px 4px;
+}
+.floatRight {
+	float: right;
+}
+.floatLeft {
+	float: left;
+}

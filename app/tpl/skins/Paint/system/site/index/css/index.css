@@ -1,0 +1,343 @@
+body {
+	behavior: url("ie-css3.htc");
+	background: url('../img/fd.png');
+	font-family: 'Tahoma';
+	font-size: 12px;
+	color: #fff;
+	cursor: default;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+h1, h2, h3, p {
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+
+.reg {
+	margin-bottom: -20px;
+}
+
+h1, h2 {
+	font-size: 9px;
+}
+
+h1, .sig {
+	text-shadow: 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+h2 {
+	margin-left: 5px;
+}
+
+h3 {
+	/*background: url('../img/unete.gif') no-repeat 139px 0;*/
+	/*padding-top: 10px;*/
+	font-size: 50px;
+	box-shadow: 0 1px #004b2d, 0 2px #69d6ab;
+}
+
+#general {
+	width: 730px;
+	margin: 0 auto;
+}
+
+#header {
+	width: 730px;
+	height: 220px;
+	font-family: 'Volter (Goldfish)';
+	font-size: 9px;
+	color: #fff;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.borde {
+	width: 1px;
+	height: 145px;
+	box-shadow: 1px 0 #283c41, 2px 0 #5a6e78;
+	margin-top: 5px;
+	float: left;
+}
+
+.der {
+	margin-left: 20px;
+}
+
+#headerf {
+	background: url('../img/fdc.jpg');
+	border-bottom: solid 1px #233237;
+	position: absolute;
+	width: 100%;
+	height: 175px;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.logo {
+	background: url('../../../../images/logo.png') no-repeat;
+	height: 46px;
+	width: 160px;
+	margin: 5px auto;
+	margin-left: -19px;
+}
+
+#formulario {
+	margin-right: 5px;
+	float: left;
+}
+
+.area, .entrar {
+	border-radius: 5px;
+	font-family: 'Volter (Goldfish)';
+	font-size: 9px;
+	text-align: center;
+	color: #fff;
+	padding: 10px 0 10px 0;
+	font-weight: bold;
+}
+
+.area {
+	background: #2d4146;
+	border: solid 1px #1e2d32;
+	box-shadow: 0 1px #5a6e78, 0 1px #41555a inset, 1px 0 #41555a inset;
+	text-shadow: 1px 1px #141e23;
+	margin-bottom: 5px;
+	width: 100%;
+	outline: none;
+}
+
+.mal {
+	background: #780f0a;
+	color: #912828;
+	box-shadow: 0 1px #5a6e78, 0 1px #8c0f0f inset, 1px 0 #8c0f0f inset;
+	text-shadow:  1px #571818;
+}
+
+.entrar {
+	background: url('../img/ent.png');
+	height: 33px;
+	border: solid 1px #006e41;
+	text-shadow: 1px 1px #005532;
+	width: 100%;
+	box-shadow: 2px 2px #374b5a;
+	cursor: pointer;
+}
+.entrar:hover {
+	background: url('../img/ent.png') 0 31px;
+}
+
+#noticia {
+	background: url('../img/not.gif');
+	width: 320px;
+	height: 152px;
+	border: solid 1px #0f4155;
+	box-shadow: -1px -1px #fff inset, 1px 1px #fff inset;
+	margin-left: 20px;
+	float: left;
+	position: relative;
+}
+
+.sig {
+	background: url('../img/flch.gif') no-repeat 105px 0;
+	padding-top: 8px;
+	margin: 5px -13px 0 0;
+	height: 17px;
+	width: 130px;
+	float: right;
+}
+
+.noticia {
+	background: rgba(0, 0, 0, 0.5);
+	padding: 10px 15px 10px 15px;
+	position: absolute;
+	box-shadow: -1px -1px #fff inset, 1px 0 #fff inset;
+	width: 290px;
+	bottom: 0;
+}
+
+#registro{
+	background: #00c878;
+	font-family: 'Tahoma';
+	font-size: 20px;
+	color: #005032;
+	border: dashed 2px #00a55f;
+	text-shadow: 0 1px #69d6ab;
+	border-radius: 0 0 10px 0;
+	width: 170px;
+	height: 165px;
+	text-align: center;
+	padding: 15px;
+	float: right;
+	position: relative;
+	padding-top: 15px;
+}
+#registro:hover {
+	background: #00c878;
+}
+
+.registro {
+	height: 50px;
+	background: #009600;
+	box-shadow: 0 -23px #008700 inset, 0 1px #32a532 inset, 0 1px #69d6ab;
+	border: solid 1px #00502d;
+	border-radius: 5px;
+	padding-top: 5px;
+	width: 135px;
+	margin: 10px auto;
+	font-family: 'Bebas';
+	font-size: 35px;
+	text-shadow: 0 1px #32a032;
+}
+.registro:hover {
+	background: #00aa00;
+	box-shadow: 0 -23px #009b00 inset, 0 1px #32a532 inset, 0 1px #69d6ab;
+	text-shadow: 0 1px #41c443;
+}
+
+.fondor {
+	background: url('../img/regf.png');
+	height: 29px;
+	width: 9px;
+	position: absolute;
+	left: -11px;
+	bottom: 0px;
+}
+
+#conectados {
+	background: #2d4146;
+	font-family: 'Volter (Goldfish)';
+	font-size: 9px;
+	text-shadow: 1px 1px #141e23;
+	font-weight: bold;
+	padding: 10px;
+	border-radius: 0 0 5px 5px;
+	position: absolute;
+	top: 176px;
+}
+
+#opciones {
+	width: 720px;
+	padding-left: 7px;
+	overflow: auto;
+}
+
+.diversion {
+	background: url('../img/opc.png');
+	width: 195px;
+	height: 110px;
+	border-radius: 5px 5px 0 0;
+	border: solid 1px #192323;
+	box-shadow: 0 1px #697d7d inset, 1px 0 #697d7d inset;
+	padding: 0 15px 15px 15px;
+	margin: 5px;
+	float: left;
+}
+
+.titulo {
+	font-family: 'Bebas';
+	font-size: 55px;
+	text-shadow: 1px 1px #000, -1px -1px #000, -1px 1px #000, 1px -1px #000;
+	text-align: center;
+}
+
+.crea {
+	background: url('../img/cr.gif') no-repeat 5px;
+	padding-left: 40px;
+}
+
+.juega {
+	background: url('../img/jg.gif') no-repeat 5px;
+}
+
+.chatea {
+	background: url('../img/ch.gif') no-repeat -13px 15px;
+	padding-left: 40px;
+	height: 116px;
+	position: relative;
+}
+
+.amig {
+	margin: -50px 0 0 65px;
+	width: 130px;
+	position: absolute;
+	float: left;
+}
+
+#habbos {
+	background: url('../img/habbos.png') -5px;
+	width: 695px;
+	height: 280px;
+	font-family: 'Bebas';
+	font-size: 100px;
+	color: #000;
+	text-shadow: 1px 1px #505050;
+	margin-top: -6px;
+	padding: 15px;
+	border: solid 1px #000;
+	border-radius: 2px;
+	box-shadow: 1px 1px #fff inset, -1px -1px #fff inset;
+}
+
+#footer {
+	background: url('../img/frank.gif') no-repeat 645px 5px;
+	text-align: center;
+	font-family: 'Helvetica';
+	font-size: 17px;
+	color: #000;
+	text-shadow: 0 1px #fff;
+	margin-top: 15px;
+	padding-top: 15px;
+	height: 45px;
+}
+
+#creditos {
+	position: fixed;
+	background: #232323;
+	border-top: solid 1px #000;
+	width: 100%;
+	height: 70px;
+	padding: 15px 0 15px 0;
+	left: 0;
+	bottom: 0;
+}
+
+.creditos {
+	background: url('../img/ac.png') no-repeat;
+	padding-left: 40px;
+	height: 52px;
+	text-align: left;
+	margin-left: 15px;
+	float: left;
+}
+
+#redes {
+	margin-right: 15px;
+}
+
+.red {
+	height: 32px;
+	width: 32px;
+	margin-left: 5px;
+	float: right;
+}
+
+.twit {
+	background: url('../img/redes.png');
+}
+.twit:hover {
+	background: url('../img/redes.png') 32px 0;
+}
+
+.face {
+	background: url('../img/redes.png') 0 32px;
+}
+.face:hover {
+	background: url('../img/redes.png') 32px 32px;
+}

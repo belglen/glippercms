@@ -1,0 +1,286 @@
+
+body {
+	background-color:#eee;
+	font-family: Ubuntu;
+	margin-top:45px;
+}
+a,
+a:hover{
+	text-decoration:none;
+	color:#000;
+	text-shadow:#fff 0 1px;
+}
+a:active {
+	color:#666;
+}
+.fix {
+	clear:both;
+}
+#wrapper_top {
+	background-image:url(images/top_container.png);
+	width:753px;
+	height:14px;
+	margin:0px auto;
+}
+#wrapper_middle {
+	background-image: url(images/wrapper.png);
+	background-repeat: repeat;
+	height: auto;
+	width: 753px;	
+	margin:0px auto;
+}
+#header {
+	background-image: url(images/header.png);
+	height: 139px;
+	width: 737px;
+	margin:0px auto;
+}
+#header_right {
+	width:90px;
+	float:right;
+	height:auto;
+	margin-top:10px;
+}
+.header_buttons {
+	background-image: url(images/header_button.png);
+	height: 25px;
+	width: 90px;
+	float:right;
+	font-size:10px;
+	margin-right:1px;
+	font-family: Ubuntu;
+	margin-top:10px;
+	font-weight:600;
+	text-shadow:#fff 0 1px;
+}
+.header_buttons:hover {
+	background-image: url(images/header_button_hover.png);
+}
+.header_buttons:active {
+	background-image: url(images/header_button_hover.png);
+	opacity:0.8;
+}
+.header_buttons #text {
+	padding-top:4px;
+	text-align:right;
+}
+.header_buttons #text img {
+	margin-left:4px;
+}
+#menu {
+	background-image: url(images/menu_bar.png);
+	height: 33px;
+    margin:0px auto;
+	width: 739px;	
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#menu ul {
+	width:auto;
+	height:30px;
+	margin:0px auto;
+}
+#menu ul li {
+	list-style:none;
+	font-family: Ubuntu;
+	font-size:12px;
+	font-weight:700;
+	float:left;
+	height:20px;
+	padding-left:5px;
+	padding-right:10px;
+	padding-top:7px;
+	margin-right:5px;
+	padding-bottom:5px;
+	text-align:center;
+	background-image:url(images/menu_seprator.png);
+	background-position:right;
+	background-repeat:no-repeat;
+}
+#left_container_top {
+	margin-left:7px;
+	float:left;
+	background-image: url(images/left_container_top.png);
+	height: 8px;
+	width: 527px;
+}
+#left_container_middle {
+	background-image: url(images/left_container_middle.png);
+	height: 100%;
+	margin-left:7px;
+	float:left;
+	width: 526px;
+	background-repeat: repeat;
+}
+#left_box_top {
+	margin:0px auto;
+	background-image: url(images/left_top.png);
+	height: 24px;
+	width: 515px;
+	text-align:center;
+}
+#left_box_middle {
+	background-image: url(images/left_middle.png);
+	width: 515px;
+	height: auto;
+	margin:0px auto;
+	}
+#left_box_bottom {
+	background-image: url(images/left_bottom.png);
+	height: 9px;
+	width: 515px;
+	margin:0px auto;
+}
+#l_top {
+	background-image: url(images/l_top.png);
+	height: 24px;
+	width: 493px;
+	margin:0px auto;
+
+}
+#l_top .title {
+	font-family: Ubuntu;
+	font-size:11px;
+	font-weight:400;
+	color:#000;
+	width:440px;
+	margin:0px auto;
+	padding-top:5px;
+	text-align:center;
+	padding-bottom:1px;
+	border-bottom:1px solid #ccc;
+	
+}
+#l_middle {
+	background-image: url(images/l_middle.png);
+	height: 117px;
+	width: 483px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Ubuntu;
+	font-size:10px;
+	font-weight:400;
+	margin:0px auto;
+}
+#l_bottom {
+	background-image: url(images/l_bottom.png);
+	height: 6px;
+	width: 493px;
+	margin:0px auto;
+}
+.line_title {
+	text-shadow:#fff 0 1px;
+	font-family: Ubuntu;
+	font-size: 13px;
+	font-style: normal;
+	padding-left:5px;
+	padding-right:5px;
+	background-color:#e1e1e1;
+	font-weight: 500;
+}
+#right_container_top {
+	background-image: url(images/right_top.png);
+	height: 34px;
+	width: 209px;
+	float: left;
+	margin: 0px auto;
+}
+#right_container_middle {
+	background-image: url(images/bgg.png);
+	border-right:1px solid #858585;
+	width: 208px;
+	height:auto;
+	float: left;
+}
+#right_box_top {
+	background-image: url(images/right_box_top.png);
+	height: 6px;
+	width: 199px;
+	margin:0px auto;
+}
+#right_box_middle {
+	background-image: url(images/right_box_middle.png);
+	height: auto;
+	width: 199px;
+	margin:0px auto;
+}
+#right_box_middle #div_holder {
+	width:189px;
+	margin: 0px auto;
+	height: 135px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+	}
+#right_box_bottom {
+	background-image: url(images/right_box_bottom.png);
+	height: 5px;
+	width: 199px;
+	margin:0px auto;
+}
+#div_holder .infobox {
+	background-image: url(images/right_info_box.png);
+	height: 41px;
+	width: 166px;
+	margin:0px auto;
+	padding:5px;
+	margin-bottom:7px;
+	font-family: Ubuntu;
+	font-size:10px;
+	font-weight:500;
+	color:#333;
+	text-shadow:#fff 0 1px;
+}
+::-webkit-scrollbar {
+	width:9px;
+	height:9px;
+	background: #FFFFFF;
+	border: 2px solid #FFFFFF;
+	-webkit-border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+	min-height: 10px;
+	-webkit-border-radius: 10px;
+	background: #453b3b;
+	border: 2px solid #E4E5E0;
+}
+#right_txtbox {
+	background-image: url(images/txtbox.png);
+	height: 16px;
+	width: 178px;
+	font-size:10px;
+	font-weight:400;
+	text-align:center;
+	color:#000;
+	text-shadow:#fff 0 1px;
+	margin:0px auto;
+	padding:3px;
+	padding-top:5px;
+}
+#bottom {
+	background-image: url(images/l_r_container_bottom.png);
+	height: 7px;
+	width: 735px;	
+	margin-left:7px;
+	float:left;
+}
+#copyrightbar {
+	background-image: url(images/copybar.png);
+	height: 23px;
+	width: 737px;
+	float:left;
+	text-align:center;
+	font-family:Ubuntu;
+	font-size:10px;
+	font-weight:500;
+	margin-top:10px;
+	padding-top:6px;
+	margin-bottom:10px;
+	margin-left:7px;
+}
+#botm {
+	background-image: url(images/bottom_container.png);
+	height: 7px;
+	width: 753px;
+	margin:0px auto;
+}

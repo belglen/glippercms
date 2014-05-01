@@ -1,0 +1,3 @@
+var Register={initGenderChooser:function(b){if($("gender-choices")){function a(d){$$("#gender-choices li").each(function(f){f.removeClassName("selected")});if(d.tagName.toLowerCase()!="li"){d=d.up("li")}var e=d.down("img");var c=e.readAttribute("alt");
+$("avatarGender").setValue(c);d.addClassName("selected")}$$("#gender-choices li").each(function(c){Event.observe(c,"click",function(d){a(d.element())})});if(typeof(b)!="undefined"&&$$("#gender-choices img[alt='"+b+"']").length>0){a($$("#gender-choices img[alt='"+b+"']")[0])}else{a($$("#gender-choices li:first")[0])
+}}}}

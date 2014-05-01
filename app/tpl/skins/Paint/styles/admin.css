@@ -1,0 +1,490 @@
+td,th {
+    padding-left: 3px;
+}
+/* KLADBLOK */
+.habbobutton{
+    height: 25px;
+    border:solid 2px black;
+    border-radius: 3px;
+    cursor: pointer;
+    padding:0px 15px 2px 14px;
+    font-weight: bold;    
+    font-size: 11px;
+    font-family: Verdana;
+}
+
+.habbobutton.green{
+    background-color: #2C7E00;
+    box-shadow: inset 1px 1px 0px 0px #2C7E00, inset -6px 0px 0px -5px #2C7E00, inset 0px 11px 0px 0px #3BA800;
+    color: white;
+}
+.habbobutton.green:hover{
+    background-color: #339D00;
+    box-shadow: inset 1px 1px 0px 0px #339D00, inset -6px 0px 0px -5px #339D00, inset 0px 11px 0px 0px #45CB00;
+}
+
+.habbobutton.white{
+    background-color: #CCCCCC;
+    box-shadow: inset 1px 1px 0px 0px #CCCCCC, inset -6px 0px 0px -5px #CCCCCC, inset 0px 11px 0px 0px #fff;
+    color: black;
+}
+fieldset.sectionwrap{ /*fieldset that wraps around each form "page" */
+border-width:0;
+padding:5px;
+}
+
+legend{ /*title shown at top of each form page */
+font:bold 16px Arial;
+color: darkred;
+}
+
+div.stepsguide{ /*div that contains all the "steps" text located at top of form */ 
+width: 400px; /*width of "steps" container*/
+overflow:hidden;
+margin-bottom:15px;
+cursor:pointer;
+}
+
+div.stepsguide .step{ /*div that wraps around each "steps" text */
+width:120px; /*width of each "steps" text*/
+font: bold 24px Arial;
+float:left;
+}
+
+div.stepsguide .disabledstep{ /*div that wraps around each "steps" text */
+color:#C4C4C4;
+}
+
+div.stepsguide .step .smalltext{ /*small footer text inside "steps" text */
+font-size: 13px;
+font-weight: normal;
+}
+
+div.formpaginate{ /* CSS for pagination DIV container */
+width: 350px;
+overflow:hidden;
+font-weight:bold;
+text-align:center;
+margin-top:1em;
+}
+
+div.formpaginate .prev, div.formpaginate .next{ /*CSS for "prev" and "next" SPAN elements within paginate container */
+border-radius:5px;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+padding:2px 5px;
+background:darkred;
+color:white;
+cursor:hand;
+cursor:pointer;
+}
+.habbobutton.white:hover{
+    background-color: #EAEAEA;
+    width: auto;
+    box-shadow: inset 1px 1px 0px 0px #EAEAEA, inset -6px 0px 0px -5px #EAEAEA, inset 0px 11px 0px 0px #fff;
+}
+
+.habbobutton.grey{
+    background-color: #606060;
+    box-shadow: inset 1px 1px 0px 0px #606060, inset -6px 0px 0px -5px #606060, inset 0px 11px 0px 0px #888888;
+    color: white;
+    width: auto;
+}
+
+.habbobutton.grey:hover{
+    background-color: #7C7C7C;
+    box-shadow: inset 1px 1px 0px 0px #7C7C7C, inset -6px 0px 0px -5px #7C7C7C, inset 0px 11px 0px 0px #A8A8A8;
+    width: auto;
+}
+
+.habbobutton.red{
+    background-color: #B50000;
+    box-shadow: inset 1px 1px 0px 0px #B50000, inset -6px 0px 0px -5px #B50000, inset 0px 11px 0px 0px #DE0000;
+    width: auto;
+    color: white;
+}
+
+.habbobutton.red:hover{
+    background-color: #D70000;
+    box-shadow: inset 1px 1px 0px 0px #D70000, inset -6px 0px 0px -5px #D70000, inset 0px 11px 0px 0px #FF1616;
+    width: auto;
+}
+
+.habbobutton.purple{
+    background-color: #800080;
+    box-shadow: inset 1px 1px 0px 0px #800080, inset -6px 0px 0px -5px #800080, inset 0px 11px 0px 0px #D500D5;
+    color: white;
+    width: auto;
+}
+
+.habbobutton.purple:hover{
+    background-color: #C600C6;
+    box-shadow: inset 1px 1px 0px 0px #C600C6, inset -6px 0px 0px -5px #C600C6, inset 0px 11px 0px 0px #FF1CFF;
+    width: auto;
+}
+
+.habbobutton.orange{
+    background-color: #D56A00;
+    box-shadow: inset 1px 1px 0px 0px #D56A00, inset -6px 0px 0px -5px #D56A00, inset 0px 11px 0px 0px #E67300;
+    color: white;
+    width: auto;
+}
+
+.habbobutton.orange{
+    background-color: #D56A00;
+    box-shadow: inset 1px 1px 0px 0px #D56A00, inset -6px 0px 0px -5px #D56A00, inset 0px 11px 0px 0px #E67300;
+    color: white;
+    width: auto;
+}
+
+.habbobutton.orange:hover{
+    background-color: #F07800;
+    box-shadow: inset 1px 1px 0px 0px #F07800, inset -6px 0px 0px -5px #F07800, inset 0px 11px 0px 0px #FF8204;
+    color: white;
+    width: auto;
+}
+/* !KLADBLOK */
+
+/* AANKOPEN */
+.aankopen a 
+{
+    text-decoration: none;
+}
+.box2
+{
+    display:none;
+}
+.first.aankopen td {
+    border: 1px solid #808080;
+    width: 310px;
+    background-color: #E0E0E0;    
+    font-size: small;
+    text-shadow: 1px 1px 0px rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 3px;
+    text-align: center;
+}
+.two.aankopen td {
+    border: 1px solid #808080;
+    width: 310px;
+    background-color: #EFEFEF;    
+    font-size: small;
+    text-shadow:1px 1px white;
+    text-decoration: none;
+    text-align: center;
+}
+.aankopen.username
+{
+    width: 286px;
+    border: 1px solid #808080;
+    background-color: #B2B2B2;    
+    font-size: small;
+    text-shadow:1px 1px white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+.aankopen.datum
+{
+    width: 400px;
+    border: 1px solid #808080;
+    background-color: #B2B2B2;    
+    font-size: small;
+    text-shadow:1px 1px white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+.aankopen.aantal
+{
+    width: 20%;
+    max-width:20%;
+    min-width:20%;
+    border: 1px solid #808080;
+    background-color: #B2B2B2;    
+    font-size: small;
+    text-shadow:1px 1px white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+/* !AANKOPEN */
+
+/* GEBRUIKERS */
+.users table {
+    border-collapse: collapse; 
+    border: 1px solid #808080;
+    font-size: small;
+	text-decoration: none;
+}
+.first.users td {
+    border: 1px solid #808080;
+    width: 310px;
+    background-color: #E0E0E0;    
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    text-shadow:1px 1px white;
+	text-decoration: none;
+}
+.two.users td {
+    border: 1px solid #808080;
+    width: 310px;
+    background-color: #EFEFEF;    
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    text-shadow:1px 1px white;
+	text-decoration: none;
+}
+.third.users td {
+    border: 1px solid #808080;
+    width: 310px;
+    background-color: #F0F0F0;    
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    text-shadow:1px 1px white;
+	text-decoration: none;
+}
+.users th {
+    border: 1px solid #808080;
+    width: 310px;
+    background-color: rgb(178,178,178);    
+    font-size: small;
+    text-shadow:1px 1px white;
+    text-decoration: none;
+}
+.users a {
+	text-decoration: none;
+}
+/* !GEBRUIKERS */
+/* KLADLOK */
+.klad table {
+    border-collapse: collapse; 
+    border: 1px solid #808080;
+    font-size: small;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.first.klad td {
+    border: 1px solid #808080;
+    width: 310px;
+    background-color: #E0E0E0;    
+    font-size: small;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.two.klad td {
+    border: 1px solid #808080;
+    width: 310px;
+    background-color: #EFEFEF;    
+    font-size: small;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.third.klad td {
+    border: 1px solid #808080;
+    width: 310px;
+    background-color: #F0F0F0;    
+    font-size: small;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.klad th {
+    border: 1px solid #808080;
+    width: 310px;
+    background-color: rgb(178,178,178);    
+    font-size: small;
+    text-shadow:0.5px 0.5px white;
+    text-decoration: none;
+    margin-left: 10px;
+    text-align:left;
+}
+.klad a {
+    text-decoration: none;
+}
+
+/* !KLADBLOK */
+/* HEADER */
+#menusubbalkie-admin {
+    background-color: rgb(255, 255, 255);
+    width: 948px;
+    height: 65px;
+    border-bottom: 2px solid rgb(76, 70, 70);
+    margin-top: -9px;
+    float: left;
+    margin-left: -20px;
+    margin-bottom: 14px;
+    border-right: 2px solid rgb(76, 70, 70);
+    border-left: 2px solid rgb(76, 70, 70);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.menuitems-admin {
+    font-size: 12px;
+    padding: 5px 35px 0px;
+    margin-top: 10px;
+    float: left;
+    position: relative;
+    border-left: thin #E8E8E8 solid;
+    margin-left: -4px;
+}
+/* !HEADER */
+/* CHATLOGS */
+.chatlogsinputone input[type="text"] {
+    border-color: black;
+    background-color: #E0E0E0;
+    border-width: 1px 1px 1px;  
+}
+.chatlogsinputtwo input[type="text"] {
+    border-color: black;
+    background-color: #F0F0F0;   
+    border-width: 1px 1px 1px;  
+}
+.chatlogssubmitone input[type="submit"] {
+    color: rgb(136, 136, 136);
+    border-color: black;
+    border-width: 1px 1px 1px;
+    background: none repeat scroll 0% 0% rgb(240, 240, 240);
+    cursor: pointer;
+    padding: 3px;
+    height: 35px;
+    width: 120px;
+}
+a {
+	text-decoration:none;
+}
+.chatlogzz table {
+    border-collapse: collapse; 
+    border: 1px solid #808080;
+    font-size: small;
+	text-decoration: none;
+}
+.first.chatlogzz td {
+    border: 1px solid #808080;
+    width: 310px;
+    background-color: #E0E0E0;    
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    text-shadow:1px 1px white;
+	text-decoration: none;
+}
+.two.chatlogzz td {
+    border: 1px solid #808080;
+    width: 310px;
+    background-color: #EFEFEF;    
+    font-size: small;
+    text-shadow:1px 1px white;
+	text-decoration: none;
+}
+.third.chatlogzz td {
+    border: 1px solid #808080;
+    width: 310px;
+    background-color: #F0F0F0;    
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    text-shadow:1px 1px white;
+	text-decoration: none;
+}
+.chatlogzz th {
+    border: 1px solid #808080;
+    width: 310px;
+    background-color: rgb(178,178,178);    
+    font-size: small;
+    text-shadow:1px 1px white;
+    text-decoration: none;
+}
+.small.chatlogzz td
+{
+	width: 20%;
+}
+/* !CHATLOGS */
+/* ABOUT */
+#page-wrap                      { background: white; width: 960px; margin: 0 auto; 
+                                  padding: 50px 0; }
+
+#slider                         { height: 227px; overflow: hidden;
+                                  position: relative; margin: 50px 0; }
+                                  
+                                /* DEFAULT is for three panels in width, adjust as needed
+                                   This only matters if JS is OFF, otherwise JS sets this. */                                 
+#mover                          { width: 2880px; position: relative; }
+
+.slide                          { padding: 40px 30px; width: 900px; float: left; position: relative; margin-top: -20px;}
+.slide h1                       { font-family: Helvetica, Sans-Serif; font-size: 30px; letter-spacing: -1px;
+                                  color: #ac0000; }
+.slide p                        { color: #999; font-size: 12px; line-height: 22px; width: 300px; }
+.slide img                      { position: absolute; top: 20px; left: 400px; }
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+/* !ABOUT */
+/* IDEEËN */
+.ideas table {
+    border-collapse: collapse; 
+    border: 1px solid #808080;
+    font-size: small;
+    text-decoration: none;
+}
+.first.ideas td {
+    border: 1px solid #808080;
+    width: 310px;
+    background-color: #E0E0E0;    
+    font-size: small;
+    text-shadow:1px 1px white;
+    text-decoration: none;
+}
+.two.ideas td {
+    border: 1px solid #808080;
+    width: 310px;
+    background-color: #EFEFEF;    
+    font-size: small;
+    text-shadow:1px 1px white;
+    text-decoration: none;
+}
+.third.ideas td {
+    border: 1px solid #808080;
+    width: 310px;
+    background-color: #F0F0F0;    
+    font-size: small;
+    text-shadow:1px 1px white;
+    text-decoration: none;
+}
+.ideas th {
+    border: 1px solid #808080;
+    width: 310px;
+    background-color: rgb(178,178,178);    
+    font-size: small;
+    text-shadow:1px 1px white;
+    text-decoration: none;
+}
+/* !IDEEËN */
+/* KAMERS */
+pre {
+    padding:5px;
+    font-family: font-family: Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif;
+    margin-bottom: 10px;
+    background-color: rgb(238,238,238);
+    overflow:auto;
+    width:auto;
+    max-height:600px;
+}
+/* !KAMERS */
+input.glipperflexbtn2 {
+	color: black;
+	border-color: #FF3300;
+	background: #FF7800;
+	padding: 3px;
+	height: auto;
+	width: auto;
+}
